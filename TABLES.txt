@@ -1,0 +1,10 @@
+---------------------------------------------------------------
+PROGA START:0 LENGTH:20 LOCCTR:20
+SYMBOL TABLE
+NAME: REF1 Address: 0 Relative: 1
+NAME: REF2 Address: 4 Relative: 1
+NAME: REF3 Address: 7 Relative: 1
+NAME: REF4 Address: 17 Relative: 1
+NAME: VALA Address: 14 Relative: 1
+
+LITERAL TABLE

@@ -1,0 +1,14 @@
+COPY    START   0
+FIRST   STL     RETADR
+        LDB     #LENGTH
+        BASE    LENGTH
+        LDA     =C'EOF'
+        STA     BUFFER
+        LDA     #3
+        STA     LENGTH
+        J       @RETADR
+        LTORG
+RETADR  RESW    1
+LENGTH  RESW    1
+BUFFER  RESB    4096
+        END     FIRSTS
